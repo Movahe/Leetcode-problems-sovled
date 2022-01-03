@@ -25,8 +25,7 @@ class Solution:
         head = point = ListNode(0)
         for l in Lists:
             while l:
-                if l.val:
-                    nodes.append(l.val)
+                nodes.append(l.val)
                 l = l.next
         print(nodes)
 
