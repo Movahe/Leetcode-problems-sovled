@@ -21,6 +21,8 @@ class Solution:
                 return False
 
         return stack == [0]
+    # Time comlexity: O(N)
+    # Space complexity: O(N)
 
 
 class TestSolution(unittest.TestCase):
